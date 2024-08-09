@@ -1,8 +1,6 @@
 @media screen and (max-width:576px){
+    main,
     body{
-        width: 100%;
-    }
-    main{
         width: 100%;
     }
     .Desk-nav{
@@ -12,6 +10,9 @@
         display: block;
         width: 1.5rem;
         height: 1.5rem;
+    }
+    .Tittle-Section{
+        width: 90%;
     }
     .Tittle-Section,
     .Highlight{
@@ -44,7 +45,7 @@
         margin-top: 1.25rem;
     }
     footer{
-        width: 95%;
+        width: 90%;
     }
     .fooball-img img{
         width: 100%;
@@ -52,9 +53,7 @@
     }
     .footer-img img{
         width: 2rem;
-    }
-    .footer-img{
-        width: 100%;
+        height: 2rem;
         margin: 0 auto;
     }
 }
