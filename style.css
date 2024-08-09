@@ -8,7 +8,6 @@ body{
     max-width: 90rem;
     margin: 0 auto;
 }
-
 header{
     background-color: #2D25A0;
     height: auto;
@@ -19,6 +18,9 @@ header{
     padding-top: 2.625rem;
     width: 85%;
     margin: 0 auto;
+}
+.nav-mobile{
+    display: none;
 }
 nav ul{
     list-style: none;
@@ -56,30 +58,110 @@ nav ul li a{
     margin: 0 auto;
 }
 .Tittle-Section a{
-    margin-top: 37px;
+    margin-top: 2.5rem;
     display: flex;
     align-items: center;
     text-decoration: none;
     justify-content: center;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 0.625rem;
+    padding-bottom: 0.625rem;
     width: 10.5rem;
-    /* padding: 10px 24px; */
     color: rgb(255, 255, 255);
     font-size: 1rem;
-    gap: 8px;
+    gap: 0.5rem;
     font-weight: 500;
     background-color: rgb(224, 44, 109);
     line-height: 1.5rem;
     
 }
 .Tittle-Section img{
-    width: 556.01px;
-    height: 438px;
+    width: 34.75rem;
+    height: 27.375rem;
     padding-bottom: 3rem;
 }
 .Tittle-Section-title{
-    font-size: 64px;
+    font-size: 4rem;
     font-weight: 700;
     color: rgb(255, 255, 255);
+}
+main{
+    width: 90rem;
+    margin: 0 auto;
+}
+.info-player{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    width: 78%;
+    margin: 0 auto;
+    gap: 1.875rem;
+    margin-top: 2.5rem;
+    margin-bottom: 6.25rem;
+}
+.player-title{
+    color: rgb(24, 25, 31);
+    font-size: 1.75rem;
+    font-weight: 700;
+}
+.player-descrip{
+    color: rgb(108, 108, 108);
+    font-size: 1rem;
+    font-weight: 400;
+}
+.player{
+    box-sizing: border-box;
+    box-shadow: 0 0 2.5rem 0 rgba(0, 0, 0, 0.15);
+    padding: 1rem;
+    width: 20.625rem;
+}
+.Highlight{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+.Highlight-title{
+    color: rgb(10, 8, 38);
+    font-size: 3rem;
+    font-weight: 700;
+    margin-top: 3.75rem;
+}
+.Highlight a{
+    margin-top: 1.5rem;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    justify-content: center;
+    padding-top: 0.625rem;
+    padding-bottom: 0.625rem;
+    width: 10.5rem;
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+    gap: 0.5rem;
+    font-weight: 500;
+    background-color: rgb(224, 44, 109);
+    line-height: 1.5rem;
+}
+.Highlight-p{
+    width: 25.25rem;
+    color: rgb(108, 108, 108);
+    font-size: 1rem;
+    font-weight: 400;
+    margin-top: 0.625rem;
+}
+footer{
+    padding-top: 9.375rem;
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+.footer-span{
+    color: rgb(0, 0, 0);
+    font-size: 1.125rem;
+    font-weight: 400;
+    margin-bottom: 6rem;
+    margin-top: 1.25rem;
+}
+.footer-img a{
+    text-decoration: none;
+    margin-right: 0.875rem;
 }
